@@ -46,36 +46,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DeviceTypeA.cs" />
-    <Compile Include="DeviceTypeAForm.cs">
+    <Compile Include="Classes-Model\DeviceTypeA.cs" />
+    <Compile Include="Forms\DeviceTypeAForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeviceTypeAForm.Designer.cs">
+    <Compile Include="Forms\DeviceTypeAForm.Designer.cs">
       <DependentUpon>DeviceTypeAForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeviceTypeB.cs" />
-    <Compile Include="DeviceTypeBForm.cs">
+    <Compile Include="Classes-Model\DeviceTypeB.cs" />
+    <Compile Include="Forms\DeviceTypeBForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeviceTypeBForm.Designer.cs">
+    <Compile Include="Forms\DeviceTypeBForm.Designer.cs">
       <DependentUpon>DeviceTypeBForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="IDevice.cs" />
+    <Compile Include="Interfaces\IDevice.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="DeviceTypeAForm.resx">
+    <EmbeddedResource Include="Forms\DeviceTypeAForm.resx">
       <DependentUpon>DeviceTypeAForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeviceTypeBForm.resx">
+    <EmbeddedResource Include="Forms\DeviceTypeBForm.resx">
       <DependentUpon>DeviceTypeBForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
